@@ -76,14 +76,18 @@ const images = {
     "kui",
     "nanda",
     "tanutanu",
-    "pig"
+    "pig",
+    "aji",
+    "napoleon",
+    "salmon"
   ],
   bg: [
     "farm",
     "room",
     "mountain",
     "forest",
-    "sky"
+    "sky",
+    "sea"
   ]
 }
 
