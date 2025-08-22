@@ -194,8 +194,11 @@ async function share() {
 async function openIcon() {
   const url = URL.createObjectURL(await getBlob());
 
-  location.href = url;
-  
+  try {
+    window.open(url, "_blank");
+  } catch {
+    location.href = url;
+  }
   setTimeout(() => {
     URL.revokeObjectURL(url);
   }, 10000);
