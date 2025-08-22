@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icon Generator 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/stylesheets/tengu.css">
+  <link rel="stylesheet" href="assets/stylesheets/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="assets/scripts/script.js"></script>
+</head>
+<body>
+  <div class="main">
+    <h1 class="title">アイコンジェネレーター2</h1>
+    <canvas id="preview" width="1000" height="1000"></canvas>
+    <label class="switch-option" style="max-width: 300px;margin: 10px auto;justify-content: center; gap: 1rem;">
+      <div class="switch"><input type="checkbox" id="is-rounded" checked></div>
+      <div>アイコンをまるく表示する</div>
+    </label>
+    <div class="btn-group center">
+      <div class="btn primary" id="share">共有</div>
+      <div class="btn warning" id="download">ダウンロード</div>
+      <div class="btn success" id="open">開く</div>
+    </div>
+    <div class="i-btn-group">
+      <div class="i-btn" id="btn-ch">
+        <div class="i-btn-label">キャラクター</div>
+        <img src="assets/ch/gao.png" class="i-btn-icon" id="btn-ch-img">
+      </div>
+      <div class="i-btn" id="btn-bg">
+        <div class="i-btn-label">背景</div>
+        <img src="assets/bg/farm.png" class="i-btn-icon" id="btn-bg-img">
+      </div>
+    </div>
+  </div>
+  <div class="dialog" id="dialog-ch">
+    <div class="dialog-header">
+      <div class="dialog-header-text">
+        キャラクター
+      </div>
+      <img src="assets/close.svg" class="dialog-header-close">
+    </div>
+    <div class="dialog-main">
+    </div>
+  </div>
+
+  <div class="dialog" id="dialog-bg">
+    <div class="dialog-header">
+      <div class="dialog-header-text">
+        背景
+      </div>
+      <img src="assets/close.svg" class="dialog-header-close">
+    </div>
+    <div class="dialog-main">
+    </div>
+  </div>
+</body>
+</html>
