@@ -79,7 +79,13 @@ const images = {
     "pig",
     "saba",
     "napoleon",
-    "salmon"
+    "salmon",
+    "bear_brown",
+    "bear_white",
+    "horse_brown",
+    "horse_white",
+    "snake_green",
+    "snake_white"
   ],
   bg: [
     "farm",
