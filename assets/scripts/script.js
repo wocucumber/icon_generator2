@@ -77,7 +77,7 @@ const images = {
     "nanda",
     "tanutanu",
     "pig",
-    "aji",
+    "saba",
     "napoleon",
     "salmon"
   ],
